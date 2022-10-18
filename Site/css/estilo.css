@@ -1,0 +1,48 @@
+
+html {
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fafafa;
+    overflow: auto;
+}
+header{
+    background-color: #0a0b14;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.conteudo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    height: 100%;
+}
+
+.conteudo ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.logo{
+    position: relative;
+    height: 2.5em;
+    float: left;
+}
