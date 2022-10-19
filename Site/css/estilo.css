@@ -1,4 +1,6 @@
-
+:root {
+    --altura-header: 70px;
+}
 html {
     font-size: 14px;
     font-family: "Open Sans",sans-serif;
@@ -13,17 +15,17 @@ body{
 }
 header{
     background-color: #0a0b14;
-    height: 50px;
+    height: var(--altura-header);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
     display: flex;
-    justify-content: center;
     align-items: center;
     
 }
+
 .conteudo {
     margin: 0;
     padding: 0;
@@ -35,14 +37,27 @@ header{
 .conteudo ul{
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    margin: 0;
+    padding: 0 0 0 30px;
+    display: flex;
+    gap: 30px;
+}
+.conteudo ul li {
+    
+}
+.conteudo ul li a {
+    font-size: 1.1em;
+    letter-spacing: .05em;
+    color: #cacaca;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    height: var(--altura-header);
+    line-height: var(--altura-header);
+    padding: 0 10px;
 }
 .logo{
     position: relative;
-    height: 2.5em;
     float: left;
+    padding: 0 4rem;
 }
