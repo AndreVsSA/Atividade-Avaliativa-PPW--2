@@ -12,6 +12,10 @@ body{
     -webkit-font-smoothing: antialiased;
     background-color: #fafafa;
     overflow: auto;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    background-color: #0a0b14;
 }
 header{
     background-color: #0a0b14;
@@ -42,9 +46,7 @@ header{
     display: flex;
     gap: 30px;
 }
-.conteudo ul li {
-    
-}
+
 .conteudo ul li a {
     font-size: 1.1em;
     letter-spacing: .05em;
@@ -60,4 +62,67 @@ header{
     position: relative;
     float: left;
     padding: 0 4rem;
+}
+#background{
+    background-image: url(../Background.png);
+    height: 100vh;
+    background-size: cover;
+    box-shadow: inset 0 0 500px 240px black;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo2{
+    bottom: 60px;
+    position: relative;
+}
+
+.nossamissao {
+    font-weight: 300;
+    color: #9896ae;
+    font-size: 1.8em;
+    position: relative;
+    bottom: 30px;
+    width: 399px;
+    text-align: center;
+}
+.box1 {
+    position: absolute;
+    border: 1px solid #9896ae;
+    border-top: 0;
+    border-right: 0;
+    width: 16px;
+    height: 16px;
+    opacity: .7;
+    left: -16px;
+    bottom: -8px;
+}
+.box2 {
+    position: absolute;
+    border: 1px solid #9896ae;
+    border-left: 0;
+    border-bottom: 0;
+    width: 16px;
+    height: 16px;
+    opacity: .7;
+    right: -16px;
+    top: -6px;
+}
+.separador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+    width: 100%;
+}
+.linha{
+    opacity: .5;
+    flex: 1;
+    height: 1px;
+    background-color: #9896ae
+}
+.bola img{
+    width: 90px;
 }
