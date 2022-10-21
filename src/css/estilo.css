@@ -470,6 +470,9 @@ footer::before{
   .informa {
     flex-direction: column-reverse;
   }
+  .informax::before {
+    flex-direction: column-reverse;
+  }
   #hytale{
     background: linear-gradient(270deg,rgba(13,9,22,.9),rgba(13,9,22,.8) 40%,rgba(13,9,22,.5) 70%,rgba(13,9,22,.5));
   }
