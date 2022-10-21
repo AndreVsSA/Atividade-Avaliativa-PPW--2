@@ -470,7 +470,7 @@ footer::before{
   .informa {
     flex-direction: column-reverse;
   }
-  .informax::before {
+  .informax {
     flex-direction: column-reverse;
   }
   #hytale{
