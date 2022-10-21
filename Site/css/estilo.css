@@ -15,7 +15,7 @@ body{
     margin: 0;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    background-color: #0a0b14;
+    
 }
 header{
     background-color: #0a0b14;
@@ -125,4 +125,125 @@ header{
 }
 .bola img{
     width: 90px;
+}
+.Team{
+    background-image: url(fundocinza.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.informa{
+    padding: 3.5em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    flex: .75;
+    flex-shrink: 0;
+    position: relative;
+}
+.informa::before{
+    pointer-events: none;
+    opacity: .05;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: url(runa.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+.divider{
+    background: #969285;
+    height: 1px;
+    width: calc(100% - 14px);
+    margin-left: 6px;
+    position: relative;
+}
+.subtexto{
+    color: #7a7463;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.subtexto p{
+        line-height: 160%;
+        letter-spacing: .02em;
+        font-size: 1.05em;
+        font-weight: 400;
+        margin: 0.8em 0;
+}
+.titulo{
+    color: #1d0e47;
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0;
+}
+.titulo h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.divider::before{
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    border: 1px solid #969285;
+    transform: rotate(45deg);
+    top: -3px;
+    left: -7px;
+}
+.divider::after{
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    border: 1px solid #969285;
+    transform: rotate(45deg);
+    top: -3px;
+    left: 266px;
+}
+.sectiontext{
+    color: #060707;
+}
+.sectiontext p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 160%;
+    letter-spacing: .02em;
+    font-size: 1.05em;
+    font-weight: 400;
+    margin: 0.8em 0;
+    text-align: left;
+}
+.guerreiros
+{
+    padding: 0;
+    flex: 1;
+    transition: transform .1s ease-out;
+    z-index: 10;
+    transform: translateY(19.8348px);
+}
+.guerreiros img{
+    width: 100%;
+}
+.meubotao{
+    background-color: #1a62ff;
+    padding: 0.7em 2em;
+    border-radius: 0.35em;
+    color: #f7f7f7;
+    font-weight: 800;
+    font-size: 1.05em;
+    border: 0;
+    cursor: pointer;
 }
